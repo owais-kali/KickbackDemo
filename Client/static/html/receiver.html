@@ -1,0 +1,59 @@
+<html>
+
+<head>
+	<title>Receiver</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<div id="panel">
+		<!-- FMTP -->
+		<div id="sse">
+			<th>Audio Label <input type="text" id="LabelAudio" value="2001"></th>
+			<th><span id="StatusTextAudioInfo">info: null</span></th>
+			<th><span id="StatusTextAudio">(kB) </span></th>
+
+			<th>Video Label <input type="text" id="LabelVideo" value="1001"></th>
+			<th><span id="StatusTextVideoInfo">info: null</span></th>
+			<th><span id="StatusTextVideo">(kB) </span></th>
+		</div>
+		<img id="DisplayImg" src="" width=100% />
+
+		<div class="container">
+			<div class="column">
+				<video id="SourceVideo" width="250" height="250"></video>
+			</div>
+			<div class="column">
+				<div class="canvas">
+					<canvas id="Canvas" class="video"></canvas>
+				</div>
+			</div>
+		</div>
+
+		<button id="StartButton">StartWebcam</button>
+
+		<p id="inputLabel" style="display:none;">Input area</p>
+		<textarea id="inputBox" rows="30" cols="100" style="display:none"></textarea>
+		<button id="button_stream" style="display:none;">Start</button>
+		<p>Client ID</p>
+		<textarea id="id" rows="1">1</textarea>
+		<button id="button_connect">Connect</button>
+		<p id="test">Server address</p>
+		<textarea id="adr" rows="1">dev.kickback.space</textarea>
+		<div>
+			<input id="ssl" type="checkbox" name="ssl" checked>
+			<label for="ssl"> SSL </label><br>
+		</div>
+	</div>
+
+	<script src="js/misc.js"></script>
+	<script src="js/receiver.js"></script>
+	<script src="js/emitter.js"></script>
+	<script src="js/server.js"></script>
+	<script>
+		document.getElementById('button_connect').onclick = establish_connection;
+	</script>
+
+</body>
+
+</html>

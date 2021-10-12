@@ -1,0 +1,79 @@
+body {
+	background-color: silver;
+}
+
+div#panel {
+	border-style: groove;
+	max-width: 1000px;
+	margin: auto;
+	text-align: center;
+}
+
+div#bigPanel {
+	border-style: groove;
+	max-width: 1000px;
+	margin: auto;
+	position: relative;
+	top: 30px;
+	text-align: center;
+}
+
+div {
+	padding: 20px;
+}
+
+video {
+	width: 640px;
+	height: 480px;
+	margin: auto;
+	display: block;
+}
+
+img {
+	margin: auto;
+	display: block;
+}
+
+button {
+	margin: 30px 0;
+	height: 30px;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+	background-color: cyan;
+	display: block;
+}
+
+p {
+	margin: 20px auto;
+	text-align: center;
+}
+
+textarea {
+	margin: 20px auto;
+	text-align: center;
+	display: inline-block;
+}
+
+textarea.json_box {
+	margin: 20px auto;
+	text-align: left;
+	display: inline-block;
+	width: 400px;
+}
+
+input {
+	margin: 5px;
+	text-align: right;
+}
+
+select {
+	margin: auto;
+	display: block;
+}
+
+canvas {
+	margin: 30px auto;
+	display: block;
+	background-color: white;
+}
