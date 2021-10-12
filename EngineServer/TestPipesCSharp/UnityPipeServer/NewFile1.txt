@@ -1,0 +1,42 @@
+
+
+UnityReader{
+    list<UserWritePacket> UserWritePacketList;
+    dictionary<int, Event> wsUserBehaviourEventDict;
+    
+    GotRPCResponse(){
+        
+    }
+}
+
+UnityWriter{
+    list<UserReadPacket> UserReadPacketList;
+    AddUserTrack(){}
+    SendRPC(){
+        
+    }
+}
+
+WsServer{
+    WsUser : WebSocketBehavior{
+        
+        protected override void OnOpen()
+        {
+            
+        }
+
+        protected override void OnMessage(MessageEventArgs e)
+        {
+           GotRPC(){
+              UnityWriter.SendRPC();
+           }
+        }
+
+        protected override void OnClose(CloseEventArgs e)
+        {
+            
+        }
+        
+        void SendRPCResponse(){}
+    }
+}

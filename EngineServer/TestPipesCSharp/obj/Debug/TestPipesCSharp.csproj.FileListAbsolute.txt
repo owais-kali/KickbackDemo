@@ -22,3 +22,16 @@
 /home/owais/kickback/KickBack/Main/KickBack-SSR-DOTS/TestPipesCSharp/TestPipesCSharp/obj/Debug/TestPipesCSharp.csproj.CopyComplete
 /home/owais/kickback/KickBack/Main/KickBack-SSR-DOTS/TestPipesCSharp/TestPipesCSharp/obj/Debug/TestPipesCSharp.exe
 /home/owais/kickback/KickBack/Main/KickBack-SSR-DOTS/TestPipesCSharp/TestPipesCSharp/obj/Debug/TestPipesCSharp.pdb
+/home/owais/kickback/KickBack/Demo/EngineServer/TestPipesCSharp/bin/Debug/TestPipesCSharp.exe.config
+/home/owais/kickback/KickBack/Demo/EngineServer/TestPipesCSharp/bin/Debug/TestPipesCSharp.exe
+/home/owais/kickback/KickBack/Demo/EngineServer/TestPipesCSharp/bin/Debug/TestPipesCSharp.pdb
+/home/owais/kickback/KickBack/Demo/EngineServer/TestPipesCSharp/bin/Debug/Newtonsoft.Json.dll
+/home/owais/kickback/KickBack/Demo/EngineServer/TestPipesCSharp/bin/Debug/websocket-sharp.dll
+/home/owais/kickback/KickBack/Demo/EngineServer/TestPipesCSharp/bin/Debug/Newtonsoft.Json.xml
+/home/owais/kickback/KickBack/Demo/EngineServer/TestPipesCSharp/bin/Debug/websocket-sharp.xml
+/home/owais/kickback/KickBack/Demo/EngineServer/TestPipesCSharp/obj/Debug/TestPipesCSharp.csprojAssemblyReference.cache
+/home/owais/kickback/KickBack/Demo/EngineServer/TestPipesCSharp/obj/Debug/TestPipesCSharp.exe.config
+/home/owais/kickback/KickBack/Demo/EngineServer/TestPipesCSharp/obj/Debug/TestPipesCSharp.csproj.CoreCompileInputs.cache
+/home/owais/kickback/KickBack/Demo/EngineServer/TestPipesCSharp/obj/Debug/TestPipesCSharp.csproj.CopyComplete
+/home/owais/kickback/KickBack/Demo/EngineServer/TestPipesCSharp/obj/Debug/TestPipesCSharp.exe
+/home/owais/kickback/KickBack/Demo/EngineServer/TestPipesCSharp/obj/Debug/TestPipesCSharp.pdb
